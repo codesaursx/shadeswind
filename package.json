@@ -1,5 +1,5 @@
 {
-  "name": "shadeswind",
+  "name": "@codesaursx/shadeswind",
   "version": "1.0.0",
   "description": "A tailwind plugin to generate your colour palette shades.",
   "main": "index.js",
