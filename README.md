@@ -5,9 +5,9 @@ A tailwind plugin to generate color shades.
 ## Installation
 
 ```zsh
-npm install @CodesaursX/shadeswind --save
+npm install @codesaursx/shadeswind --save
 # or
-yarn add @CodesaursX/shadeswind
+yarn add @codesaursx/shadeswind
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ module.exports = {
     extend: {}
   },
   plugins: [
-    require('@CodesaursX/shadeswind')({
+    require('@codesaursx/shadeswind')({
       primary: '#7f5af0'
     })
   ]
