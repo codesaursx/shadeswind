@@ -24,7 +24,10 @@ module.exports = function (colors) {
       .correctLightness()
       .colors(7);
 
-    const shade = [...rightShade.slice(0, 6), ...leftShade.slice(1, 5)];
+    const shade = [
+      ...rightShade.slice(0, 6).reverse(),
+      ...leftShade.slice(1, 5).reverse()
+    ];
 
     let namedShades = {};
     shade.forEach((color, i) => {
